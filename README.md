@@ -1,2 +1,2 @@
 # MongoSharp
-Test of MongoDB in cC
+Test of MongoDB in c#
