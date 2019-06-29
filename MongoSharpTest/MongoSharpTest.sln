@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoSharpTest", "MongoSharpTest\MongoSharpTest.csproj", "{ECCDB95E-AAEB-44E9-A3E3-CB4CEB4753EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECCDB95E-AAEB-44E9-A3E3-CB4CEB4753EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECCDB95E-AAEB-44E9-A3E3-CB4CEB4753EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECCDB95E-AAEB-44E9-A3E3-CB4CEB4753EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECCDB95E-AAEB-44E9-A3E3-CB4CEB4753EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C77DAF1D-ABD4-4995-A2A6-37C492239896}
+	EndGlobalSection
+EndGlobal

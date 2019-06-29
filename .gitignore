@@ -3,3 +3,5 @@
 ################################################################################
 
 /MongoSharpTest/.vs/MongoSharpTest
+/MongoSharpTest/MongoSharpTest/obj
+/MongoSharpTest/MongoSharpTest/bin/Debug/netcoreapp2.2
