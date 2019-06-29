@@ -35,7 +35,7 @@ namespace MongoSharpTest
                 var things = db.GetCollection<BsonDocument>("things");
 
                 //CREATE  
-                BsonElement personFirstNameElement = new BsonElement("PersonFirstName", "Sankhojjal");
+                BsonElement personFirstNameElement = new BsonElement("PersonFirstName", "Luis");
 
                 BsonDocument personDoc = new BsonDocument();
                 personDoc.Add(personFirstNameElement);
@@ -44,20 +44,20 @@ namespace MongoSharpTest
                 things.InsertOne(personDoc);
 
                 //UPDATE  
-                BsonElement updatePersonFirstNameElement = new BsonElement("PersonFirstName", "Souvik");
+                BsonElement updatePersonFirstNameElement = new BsonElement("PersonFirstName", "Alfredo");
 
                 BsonDocument updatePersonDoc = new BsonDocument();
                 updatePersonDoc.Add(updatePersonFirstNameElement);
                 updatePersonDoc.Add(new BsonElement("PersonAge", 24));
 
-                BsonDocument findPersonDoc = new BsonDocument(new BsonElement("PersonFirstName", "Sankhojjal"));
+                BsonDocument findPersonDoc = new BsonDocument(new BsonElement("PersonFirstName", "Luis"));
 
                 var updateDoc = things.FindOneAndReplace(findPersonDoc, updatePersonDoc);
 
                 Console.WriteLine(updateDoc);
 
                 //DELETE  
-                BsonDocument findAnotherPersonDoc = new BsonDocument(new BsonElement("PersonFirstName", "Souvik"));
+                BsonDocument findAnotherPersonDoc = new BsonDocument(new BsonElement("PersonFirstName", "Alfredo"));
 
                 things.FindOneAndDelete(findAnotherPersonDoc);
 
